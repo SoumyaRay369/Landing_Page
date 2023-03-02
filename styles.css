@@ -1,0 +1,45 @@
+/* div{
+    border: 1px solid red;
+} */
+.full-content{
+    display: flex;
+}
+.image-container{
+    width: 50vw;
+    
+}
+.main-image{
+    width:50vw;
+    height: 100%;
+    /* object-fit: contain; */
+}
+.title-container{
+    position: relative;
+    margin-top: 20%;
+}
+.subtitle-container{
+    margin-top: 2rem;
+}
+.button-container{
+    margin-top: 3.1rem;
+}
+button{
+    padding: 1.2rem 4.0rem;
+    border-radius: 2rem;
+}
+.left-button{
+    margin-right: 2.9rem;
+}
+.right-button{
+    margin-left: 2.9rem;
+}
+.social-media-handles{
+    display: flex;
+    padding-left: 1rem;
+    margin-top: 3.1rem;
+}
+.icon-image{
+    width: 6.4rem;
+    /* border: 2px solid green; */
+    margin: 0rem 1rem;
+}
