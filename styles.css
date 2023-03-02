@@ -11,14 +11,17 @@
 .main-image{
     width:50vw;
     height: 100%;
-    /* object-fit: contain; */
+    object-fit: contain;
 }
 .title-container{
     position: relative;
     margin-top: 20%;
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
 }
 .subtitle-container{
     margin-top: 2rem;
+    font-family: 'Noto Serif', serif;
 }
 .button-container{
     margin-top: 3.1rem;
@@ -26,6 +29,10 @@
 button{
     padding: 1.2rem 4.0rem;
     border-radius: 2rem;
+    cursor: pointer;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 1rem;
 }
 .left-button{
     margin-right: 2.9rem;
@@ -39,7 +46,16 @@ button{
     margin-top: 3.1rem;
 }
 .icon-image{
-    width: 6.4rem;
+    width: 4.4rem;
     /* border: 2px solid green; */
-    margin: 0rem 1rem;
+    margin: 0rem 3rem;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.dark-mode-image{
+    margin-left: 40.79rem;
+    width: 3.4rem;
+    cursor: pointer;
 }
