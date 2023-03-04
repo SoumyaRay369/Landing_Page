@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:wght@600&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <div class="full-content">
@@ -13,16 +17,17 @@
             <img class= "main-image" src="new image.jpg" alt="">
         </div>
         <div class="main-content-container">
+            <img class="dark-mode-image" src="icons\classes-dark-mode-icon.png" onclick="myFunction()"alt="">
             <div class="title-container">
-                <center><h1>Soumya Ray</h1></center>
+                <center>Soumya Ray</center>
             </div>
             <div class="subtitle-container">
                 <center><h2>Full-Stack Web Developer with Specialization in UI/ UX Design and Web 3.0</h2></center>
             </div>
             <div class="button-container">
                 <center>
-                <button class="left-button">Portfolio</button>
-                <button class="right-button">Resume</button>
+                <a href="https://soumyaray369.github.io/Portfolio_Page/"><button class="left-button">Portfolio</button></a>
+                <a target="_blank" href="https://drive.google.com/file/d/17rM3rTpS1tzWryUPZ5B1Bg-0qn9JHOjM/view?usp=share_link"><button class="right-button">Resume</button></a>
             </center>
                 
             </div>
@@ -30,22 +35,27 @@
                 <!-- social media accouts' icons in rounded format. Would be good if the original colour of the content is maintained -->
                 
                 <a target="_blank" href="https://github.com/SoumyaRay369">
-                    <img class="icon-image" src="icons\394187_github_icon.png">
+                    <img class="icon-image" src="icons\4202098_github_code_developer_logo_icon.png">
                 </a>
-                <a target="_blank" href="https://github.com/SoumyaRay369">
+                <a target="_blank" href="https://twitter.com/S_Ray002">
                     <img class="icon-image" src="icons\1298770_twitter_bird_social media_tweet_icon.png">
                 </a>
-                <a target="_blank" href="https://github.com/SoumyaRay369">
+                <a target="_blank" href="mailto: soumya.ray2472@gmail.com">
                     <img class="icon-image" src="icons\4202011_email_gmail_mail_logo_social_icon.png">
                 </a>
-                <a target="_blank" href="https://github.com/SoumyaRay369">
+                <a target="_blank" href="https://www.linkedin.com/in/soumya-ray-281932224/">
                     <img class="icon-image" src="icons\4202085_linkedin_logo_social_social media_icon.png">
                 </a>
-            
-                
             </div>
+            
         </div>
     </div>
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
     
 </body>
 </html>
